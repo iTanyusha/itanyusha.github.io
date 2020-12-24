@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4K</title>
+
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="start()">Start stream</button>
+    <button onclick="stop()">Stop stream</button>
+    <select id="select" onchange="select(this.value)"></select>
+    <div>
+      <div style="display: flex; margin-right: 10px">
+        <p style="margin-right: 5px">Instant fps:</p>
+        <p id="fps" style="width: 50px">0</p>
+      </div>
+      <div style="display: flex; margin-right: 10px">
+        <p style="margin-right: 5px">Number of frames:</p>
+        <p id="frames" style="width: 50px">0</p>
+      </div>
+      <div style="display: flex; margin-right: 10px">
+        <p style="margin-right: 5px">
+          Execution time originalCanvas.drawFrame, ms
+        </p>
+        <p id="originalCanvas" style="width: 50px">0</p>
+      </div>
+      <div style="display: flex; margin-right: 10px">
+        <p style="margin-right: 5px">
+          Execution time scaledCanvas.drawFrame, ms
+        </p>
+        <p id="scaledCanvas" style="width: 50px">0</p>
+      </div>
+      <div style="display: flex; margin-right: 10px">
+        <p style="margin-right: 5px">
+          Execution time scaledCanvas.getBMPData, ms
+        </p>
+        <p id="scaledCanvasData" style="width: 50px">0</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <video id="video" autoplay="autoplay"></video>
+    </div>
+
+    <script>
+      const width = 3840;
+      const height = 2160;
+      
+      const video = document.getElementById("video");
+      video.style.width = `${window.innerWidth}px`;
+      video.style.height = "400px";
+      const fps = document.getElementById("fps");
+      const frames = document.getElementById("frames");
+      const originalCanvasEl = document.getElementById("originalCanvas");
+      const scaledCanvasEl = document.getElementById("scaledCanvas");
+      const scaledCanvasDataEl = document.getElementById("scaledCanvasData");
+      const selectList = document.getElementById("select");
+
+      const scaledWidth = Math.floor((400 / Math.min(width, height)) * width);
+      const scaledHeight = Math.floor((400 / Math.min(width, height)) * height);
+
+      let isRunning = false;
+      let prevTimestamp = 0;
+      let NumberOfFrame = 0;
+      let cameraSelected = null;
+      let originalCanvas, scaledCanvas, bestCanvas, currentStream;
+
+      navigator.mediaDevices.getUserMedia({ video: true }).then((stream) => {
+        stream.getTracks().forEach((track) => track.stop());
+      });
+
+      const select = (value) => {
+        cameraSelected = value;
+      };
+
+      const getSelectWithCameras = async () => {
+        const cameras = await navigator.mediaDevices
+          .enumerateDevices()
+          .then((devices) =>
+            devices.filter((device) => device.kind === "videoinput")
+          );
+
+        cameras.forEach((camera, index) => {
+          let option = document.createElement("option");
+          option.value = camera.deviceId;
+          option.text = index + " " + camera.label;
+          selectList.appendChild(option);
+
+          if (index === 0) cameraSelected = camera.deviceId;
+        });
+      };
+
+      getSelectWithCameras();
+
+      const start = () => {
+        const videoOptions = {
+          video: {
+            width: { exact: width },
+            height: { exact: height },
+            deviceId: cameraSelected,
+          },
+          audio: false,
+        };
+
+        navigator.mediaDevices
+          .getUserMedia(videoOptions)
+          .then((stream) => {
+            currentStream = stream;
+            video.srcObject = currentStream;
+
+            isRunning = true;
+
+            // original image
+            originalCanvas = new CanvasHelper(width, height);
+            // resized image (performance)
+            scaledCanvas = new CanvasHelper(scaledWidth, scaledHeight);
+            // best image
+            bestCanvas = new CanvasHelper(width, height);
+
+            captureNextFrame();
+          })
+          .catch(function (err) {
+            console.log("An error occurred: " + err);
+          });
+      };
+
+      const stop = () => {
+        if (currentStream) {
+          currentStream.getTracks().forEach((track) => {
+            track.stop();
+            isRunning = false;
+          });
+        }
+      };
+
+      /**
+       * draw frame from video
+       */
+      const captureNextFrame = () => {
+        if (!isRunning) return;
+
+        originalCanvas.drawFrame(video, originalCanvasEl);
+        scaledCanvas.drawFrame(video, scaledCanvasEl);
+
+        // do something with scaledCanvas
+        const image = scaledCanvas.getBMPData(scaledCanvasDataEl);
+        const isBestImage = Math.floor(
+          1 + image.data.length / 100000000 + Math.random() * 15
+        );
+
+        // save best frame
+        if (isBestImage === 15) bestCanvas.drawFrame(originalCanvas.canvas);
+
+        drawFPS();
+        drawFrames();
+
+        requestAnimationFrame(captureNextFrame);
+      };
+
+      const drawFPS = () => {
+        const delta = Date.now() - prevTimestamp;
+
+        prevTimestamp = Date.now();
+
+        if (NumberOfFrame % 3 === 0) {
+          fps.innerText = (1000 / delta).toFixed(1);
+        }
+      };
+
+      const drawFrames = () => {
+        NumberOfFrame++;
+        frames.innerText = NumberOfFrame;
+      };
+
+      /**
+       * helper class to work with canvas, that is not shown to user
+       */
+      class CanvasHelper {
+        constructor(width, height) {
+          this.width = width;
+          this.height = height;
+
+          this.canvas = document.createElement("canvas");
+          this.canvas.width = width;
+          this.canvas.style.width = width + "px";
+          this.canvas.height = height;
+          this.canvas.style.height = height + "px";
+          this.context = this.canvas.getContext("2d");
+        }
+
+        getBMPData(HTMLElem) {
+          const startTime = Date.now();
+          const data = this.context.getImageData(0, 0, this.width, this.height);
+
+          HTMLElem.innerText = Date.now() - startTime;
+
+          return data;
+        }
+
+        drawFrame(videoEl, HTMLElem) {
+          const startTime = Date.now();
+
+          this.context.drawImage(videoEl, 0, 0, this.width, this.height);
+
+          if (HTMLElem) {
+            HTMLElem.innerText = Date.now() - startTime;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

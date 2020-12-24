@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <video id="video" autoplay="autoplay"></video>
+    <script>
+      const width = 3840; // 1920;
+      const height = 2160; // 1080;
+
+      const video = document.getElementById("video");
+      video.style.width = `${window.innerWidth}px`;
+      video.style.height = "400px";
+
+      let originalCanvas,
+        scaledCanvas,
+        bestCanvas,
+        currentStream,
+        cameraSelected;
+
+      const getCameras = async () => {
+        const cameras = await navigator.mediaDevices
+          .enumerateDevices()
+          .then((devices) =>
+            devices.filter((device) => device.kind === "videoinput")
+          );
+
+        cameraSelected = cameras[0].deviceId;
+      };
+
+      const captureNextFrame = () => {
+        originalCanvas.drawFrame(video);
+        scaledCanvas.drawFrame(video);
+
+        // do something with scaledCanvas
+        const image = scaledCanvas.getBMPData(scaledCanvasDataEl);
+        const isBestImage = Math.floor(
+          1 + image.data.length / 100000000 + Math.random() * 15
+        );
+
+        // save best frame
+        if (isBestImage === 15) bestCanvas.drawFrame(originalCanvas.canvas);
+
+        requestAnimationFrame(captureNextFrame);
+      };
+
+      const start = async () => {
+        await getCameras();
+
+        const videoOptions = {
+          video: {
+            width: { ideal: width },
+            height: { ideal: height },
+            deviceId: cameraSelected,
+          },
+          audio: false,
+        };
+
+        navigator.mediaDevices
+          .getUserMedia(videoOptions)
+          .then((stream) => {
+            currentStream = stream;
+            video.srcObject = currentStream;
+
+            // original image
+            originalCanvas = new CanvasHelper(width, height);
+            // resized image (performance)
+            scaledCanvas = new CanvasHelper(scaledWidth, scaledHeight);
+            // best image
+            bestCanvas = new CanvasHelper(width, height);
+
+            captureNextFrame();
+          })
+          .catch(function (err) {
+            console.log("An error occurred: " + err);
+          });
+      };
+
+      (async () => {
+        await start();
+        console.log("video started");
+      })();
+
+      /**
+       * helper class to work with canvas, that is not shown to user
+       */
+       class CanvasHelper {
+        constructor(width, height) {
+          this.width = width;
+          this.height = height;
+
+          this.canvas = document.createElement("canvas");
+          this.canvas.width = width;
+          this.canvas.style.width = width + "px";
+          this.canvas.height = height;
+          this.canvas.style.height = height + "px";
+          this.context = this.canvas.getContext("2d");
+        }
+
+        getBMPData() {
+          const data = this.context.getImageData(0, 0, this.width, this.height);
+          return data;
+        }
+
+        drawFrame(videoEl) {
+          this.context.drawImage(videoEl, 0, 0, this.width, this.height);
+        }
+      }
+
+    </script>
+  </body>
+</html>
