@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ios privacy mode test</title>
+  </head>
+  <body>
+    <script lang="javascript">
+      if (window.safariIncognito) {
+          document.body.innerHTML += '<p>window.safariIncognito - YES!</p>'
+      } else {
+          document.body.innerHTML += '<p>window.safariIncognito - no</p>'
+      }
+
+      try {
+          localStorage.test = 'test';
+          document.body.innerHTML += '<p>localStorage - no</p>'
+      } catch (e) {
+          document.body.innerHTML += '<p>localStorage - YES!</p>'
+      }
+
+      try {
+          sessionStorage.setItem('test', 'test');
+          sessionStorage.removeItem('test');
+          document.body.innerHTML += '<p>sessionStorage - no</p>'
+      } catch (e) {
+          if (e.code === DOMException.QUOTA_EXCEEDED_ERR && storage.length === 0) {
+              document.body.innerHTML += '<p>sessionStorage - YES!</p>'
+          } else {
+              document.body.innerHTML += '<p>sessionStorage - other error: ' + e +'</p>'
+          }
+      }
+
+      try {
+          window.openDatabase(null, null, null, null);
+          document.body.innerHTML += '<p>openDatabase - no</p>'
+      } catch (_) {
+          document.body.innerHTML += '<p>openDatabase - YES!</p>'
+      }
+
+      if (navigator.cookieEnabled) {
+          document.body.innerHTML += '<p>cookieEnabled - no</p>'
+      } else {
+          document.body.innerHTML += '<p>cookieEnabled - YES!</p>'
+      }
+
+      if (window.history) {
+          document.body.innerHTML += '<p>history - no</p>'
+          getHistoryLength();
+      } else {
+          document.body.innerHTML += '<p>history - YES!</p>'
+      }
+
+    function getHistoryLength() {
+        if(window.history.length){
+            document.body.innerHTML += '<p>history.length - no: ' + window.history.length + '</p>'
+        } else {
+            document.body.innerHTML += '<p>history.length - YES!</p>';
+        }
+    }
+    </script>
+  </body>
+</html>
