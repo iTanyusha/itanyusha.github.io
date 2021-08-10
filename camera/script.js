@@ -4,14 +4,14 @@ const userInput = document.getElementById('user');
 const output = document.getElementById('output');
 const imRes = document.getElementById('imRes');
 
-// var res;
-
 imageInput.addEventListener('change', (e) => processFiles(e.target.files));
-environmentInput.addEventListener('change', (e) => processFiles(e.target.files));
+environmentInput.addEventListener('change', (e) =>
+  processFiles(e.target.files)
+);
 userInput.addEventListener('change', (e) => processFiles(e.target.files));
 
 var processFiles = (files) => {
-    // output.innerHTML = files;
-    // res = files;
-    imRes.src = URL.createObjectURL(files[0]);
-}
+  const url = URL.createObjectURL(files[0]);
+  output.innerHTML = `<a href=${url} download>${files[0].name}</a><br/>`;
+  imRes.src = url;
+};
