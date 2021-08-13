@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 10px 10px;
+        grid-template-areas:
+          '. . . .'
+          '. . . .'
+          '. . . .'
+          '. . . .'
+          '. sel sel sel'
+          'vid vid vid vid';
+      }
+      span {
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline dotted;
+      }
+      select {
+        grid-area: sel;
+      }
+      .video {
+        grid-area: vid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span onclick="setFields(600)">SVGA</span>
+      <span onclick="setFields(720)">HD</span>
+      <span onclick="setFields(1080)">FullHD</span>
+      <span onclick="setFields(1440)">2K</span>
+
+      <span onclick="setFields(2160)">4K</span>
+      <span onclick="setFields(2880)">5K</span>
+      <span></span>
+      <span></span>
+
+      width: <input id="wMin" size="6" value="1280" />
+      <input id="wIdeal" size="6" value="1920" />
+      <input id="wMax" size="6" value="2560" />
+
+      height:
+      <input id="hMin" size="6" value="720" />
+      <input id="hIdeal" size="6" value="1080" />
+      <input id="hMax" size="6" value="1440" />
+
+      <button id="getCams">Get cameras</button>
+      <select id="select" disabled>
+        <option value="">-- none --</option>
+      </select>
+
+      <div class="video">
+        <video id="video" width="100%" autoplay loop muted playsinline></video>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
