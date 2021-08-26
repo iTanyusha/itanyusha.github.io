@@ -20,13 +20,15 @@
     <div>image: <input type="file" accept="image/*" id="image" /></div>
 
     <div>
-      environment:
-      <input
-        type="file"
-        accept="image/*"
-        capture="environment"
-        id="environment"
-      />
+      <button id="envButton">
+        environment:
+        <input
+          type="file"
+          accept="image/*"
+          capture="environment"
+          id="environment"
+        />
+      </button>
     </div>
 
     <div>
@@ -36,8 +38,6 @@
     <div id="output"></div>
 
     <img id="imRes" style="max-width: 100%" />
-
-    <button id="envButton">env</button>
 
     <script src="./script.js"></script>
   </body>

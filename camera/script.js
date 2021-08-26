@@ -14,7 +14,7 @@ environmentInput.addEventListener('change', (e) =>
 userInput.addEventListener('change', (e) => processFiles(e.target.files));
 
 envButton.addEventListener('click', () =>
-  environmentInput.dispatchEvent(new MouseEvent('click'))
+  window.setTimeout(() => environmentInput.click(), 0)
 );
 
 var processFiles = (files) => {
@@ -27,5 +27,5 @@ window.addEventListener('load', () => {
   console.log('load');
   // environmentInput.focus();
   // window.setTimeout(() => environmentInput.click(), 100);
-  envButton.dispatchEvent(new MouseEvent('click'));
+  envButton.click(); //.dispatchEvent(new MouseEvent('click'));
 });
