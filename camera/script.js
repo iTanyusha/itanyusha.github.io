@@ -14,7 +14,10 @@ environmentInput.addEventListener('change', (e) =>
 userInput.addEventListener('change', (e) => processFiles(e.target.files));
 
 envButton.addEventListener('click', () =>
-  window.setTimeout(() => environmentInput.click(), 0)
+  window.setTimeout(() => {
+    // environmentInput.click(),
+    $('#environment').trigger('click');
+  }, 0)
 );
 
 var processFiles = (files) => {
@@ -27,5 +30,16 @@ window.addEventListener('load', () => {
   console.log('load');
   // environmentInput.focus();
   // window.setTimeout(() => environmentInput.click(), 100);
-  envButton.click(); //.dispatchEvent(new MouseEvent('click'));
+  // envButton.click(); //.dispatchEvent(new MouseEvent('click'));
+  // $('#envButton').trigger('click');
+
+  $('body').append(
+    "<input id='aidCameraInput' type='file' capture='environment' accept='image/*'></input>"
+  );
+  $('#aidCameraInput').focus();
+  // $('#aidCameraInput').click();
+  setTimeout(function () {
+    console.log('aaaa');
+    $('#aidCameraInput').click();
+  }, 1000);
 });
