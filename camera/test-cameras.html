@@ -8,7 +8,43 @@
       }
     </style>
     <script type="text/javascript">
-      var cameraLabels = ['передней панели', 'Front Camera', 'front'];
+      var cameraLabels = [
+        'передней панели',
+        'Front Camera',
+        'front',
+        'Caméra avant',
+        '前置相机',
+        '前置相機',
+        '前置鏡頭',
+        'Cámara frontal',
+        'Càmera frontal',
+        'Frontkamera',
+        'Câmara da frente',
+        'Fotocamera anteriore',
+        'Ön Kamera',
+        '前面カメラ',
+        '전면 카메라', // korean
+        'Camera aan voorzijde',
+        'الكاميرا الأمامية',
+        'กล้องด้านหน้า',
+        'Kamera på framsidan',
+        'Forsidekamera',
+        'Camera mặt trước',
+        'Kamera foran',
+        'Przedni aparat',
+        'Etukamera',
+        'Kamera Depan',
+        'מצלמה קדמית',
+        'Μπροστινή κάμερα',
+        'Cameră față', // romanian
+        'Elülső kamera',
+        'Přední fotoaparát',
+        'Predná kamera',
+        'Передня камера',
+        'Kamera Depan',
+        'फ़्रंट कैमरा',
+      ];
+
       function checkCameraCapabilities(device) {
         return !cameraLabels.some(
           (label) => device.label.indexOf(label) !== -1
