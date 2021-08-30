@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style type="text/css">
+      #error {
+        color: red;
+      }
+    </style>
+    <script type="text/javascript">
+      var cameraLabels = ['передней панели', 'Front Camera', 'front'];
+      function checkCameraCapabilities(device) {
+        return !cameraLabels.some(
+          (label) => device.label.indexOf(label) !== -1
+        );
+      }
+
+      function filterFrontCameras(device) {
+        return cameraLabels.some((label) => device.label.indexOf(label) !== -1);
+      }
+
+      async function testResolutions(camera) {
+        const cameraResolutions = [1280, 1920, 2560, 720, 1080, 1440];
+        const constraints = {
+          audio: false,
+          video: {
+            width: {
+              min: cameraResolutions[0],
+              ideal: cameraResolutions[1],
+              max: cameraResolutions[2],
+            },
+            height: {
+              min: cameraResolutions[3],
+              ideal: cameraResolutions[4],
+              max: cameraResolutions[5],
+            },
+            deviceId: {
+              exact: camera,
+            },
+          },
+        };
+
+        return await navigator.mediaDevices
+          .getUserMedia(constraints)
+          .then((stream) => {
+            stream.getTracks().forEach((track) => track.stop());
+
+            return true;
+          })
+          .catch(() => false);
+      }
+
+      async function getCameras(filterCameras) {
+        document.getElementById('list').innerHTML = '';
+        document.getElementById('filteredList').innerHTML = '';
+
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          document.getElementById('error').innerHTML = 'no access to cameras';
+          return;
+        }
+
+        try {
+          await navigator.mediaDevices
+            .getUserMedia({ audio: false, video: true })
+            .then(async (stream) => {
+              var cameras = await navigator.mediaDevices
+                .enumerateDevices()
+                .then((devices) =>
+                  devices.filter(
+                    (device) =>
+                      device.kind === 'videoinput' &&
+                      (!filterCameras ||
+                        (filterCameras === 'back' &&
+                          checkCameraCapabilities(device)) ||
+                        (filterCameras === 'front' &&
+                          filterFrontCameras(device)))
+                  )
+                );
+
+              stream.getTracks().forEach((track) => track.stop());
+
+              const camerasNewArr = [];
+
+              for (const camera of cameras) {
+                if (await testResolutions(camera.deviceId)) {
+                  camerasNewArr.push(camera);
+                }
+              }
+
+              document.getElementById('list').innerHTML =
+                '<ol>' +
+                cameras
+                  .map((camera) => '<li>Label: ' + camera.label + '</li>')
+                  .join('') +
+                '</ol>';
+
+              if (camerasNewArr.length === 0) {
+                document.getElementById('filteredList').innerHTML =
+                  'No corresponding resolution cameras';
+              } else {
+                document.getElementById('filteredList').innerHTML =
+                  '<ol>' +
+                  camerasNewArr
+                    .map((camera) => '<li>Label: ' + camera.label + '</li>')
+                    .join('') +
+                  '</ol>';
+              }
+            });
+        } catch (e) {
+          document.getElementById('error').innerHTML = e.message;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="getCameras()">All cameras</button>
+    <button onclick="getCameras('back')">Back cameras</button>
+    <button onclick="getCameras('front')">Front cameras</button>
+    <div id="error"></div>
+    <hr />
+    <div id="list"></div>
+    <hr />
+    <p>Filtered by resolution:</p>
+    <div id="filteredList"></div>
+  </body>
+</html>
