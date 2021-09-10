@@ -28,24 +28,30 @@ var processFiles = (files) => {
 
 window.addEventListener('load', async () => {
   console.log('load');
+  if (localStorage.getItem('visited') !== 'true') {
+    try {
+      await navigator.mediaDevices
+        .getUserMedia({ video: true })
+        .then(async (stream) => {
+          await navigator.mediaDevices
+            .enumerateDevices()
+            .then((devices) =>
+              devices.filter((device) => device.kind === 'videoinput')
+            );
 
-  try {
-    await navigator.mediaDevices
-      .getUserMedia({ video: true })
-      .then(async (stream) => {
-        await navigator.mediaDevices
-          .enumerateDevices()
-          .then((devices) =>
-            devices.filter((device) => device.kind === 'videoinput')
-          );
+          stream.getTracks().forEach((track) => track.stop());
+        });
+      window.console.log('camera on');
+      localStorage.setItem('visited', 'true');
+      window.location.reload();
+    } catch (e) {
+      window.console.log('camera off', e);
+    }
+  } else {
+    window.console.log('camera run');
 
-        stream.getTracks().forEach((track) => track.stop());
-      });
-    window.console.log('camera on');
     environmentInput.focus();
     window.setTimeout(() => environmentInput.click(), 100);
-  } catch (e) {
-    window.console.log('camera off', e);
   }
 
   // envButton.click(); //.dispatchEvent(new MouseEvent('click'));
