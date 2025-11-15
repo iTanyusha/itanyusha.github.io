@@ -11,7 +11,7 @@ import pytz
 API_URL = "https://search.api.frontendmasters.com/site?c=tutorials&so=date&s=2&f=10"
 OUTPUT_FILE = "feeds/frontendmasters-tutorials.xml"
 FEED_TITLE = "Frontend Masters Tutorials"
-FEED_LINK = "https://itanyusha.github.io/"
+FEED_LINK = f"https://itanyusha.github.io/{OUTPUT_FILE}"
 FEED_DESCRIPTION = "Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&c=tutorials&so=date"
 
 def to_rfc822_il(timestamp=None):
