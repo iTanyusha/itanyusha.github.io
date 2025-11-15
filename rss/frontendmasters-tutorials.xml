@@ -2,9 +2,9 @@
 <rss version="2.0">
 <channel>
     <title>Frontend Masters Tutorials</title>
-    <link>https://itanyusha.github.io/feeds/frontendmasters-tutorials.xml</link>
+    <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Sun, 16 Nov 2025 00:24:33 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 00:53:06 +0200</lastBuildDate>
 
 	<item>
         <title>How to Use React Compiler for 100% Faster Apps</title>
@@ -740,7 +740,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">KdiXtUSoxX</guid>
         <category>TypeScript</category>
     </item>
-    
+
 	<item>
         <title>Dynamic numbering with CSS counters</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/css-counters/</link>
@@ -749,7 +749,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">ZIcKclUENs</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>This is the BEST Golang Context Package Tutorial</title>
         <link>https://frontendmasters.com/tutorials/melkey/best-context-package/</link>
@@ -768,7 +768,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <category>Build Tools</category>
 		<category>Node.js</category>
     </item>
-    
+
 	<item>
         <title>JavaScript Visualized - Closures</title>
         <link>https://frontendmasters.com/tutorials/lydia-hallie/closure/</link>
@@ -786,7 +786,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">cjwkGoBJaB</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Stop the Flexbox for 1D, Grid for 2D layout nonsense</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/flex-grid-1d-2d/</link>
@@ -795,7 +795,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">ZeNTkZCRUJ</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Learn Closures In 13 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/js-closures/</link>
@@ -813,7 +813,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">qDYARNpHqX</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>If You Cannot Name All 5 JS Scopes You Need To Watch This Video</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/js-scopes/</link>
@@ -822,7 +822,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">WXYjUUkScw</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Structure Golang Projects with Go Blueprint</title>
         <link>https://frontendmasters.com/tutorials/melkey/structuring-go-projects/</link>
@@ -831,7 +831,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">dixjJofvhX</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>gRPC in Golang with Twirp</title>
         <link>https://frontendmasters.com/tutorials/melkey/grpc-with-twirp/</link>
@@ -840,7 +840,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">FbtqmMCVgI</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>JavaScript Visualized - Execution Contexts</title>
         <link>https://frontendmasters.com/tutorials/lydia-hallie/execution-context/</link>
@@ -849,7 +849,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">MNMNVteCci</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Pros vs Cons of Pointers in Golang</title>
         <link>https://frontendmasters.com/tutorials/melkey/go-pointers/</link>
@@ -876,7 +876,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">uOFWvgLJmT</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Create a clean, modern navigation with HTML &amp; CSS</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/vertical-nav/</link>
@@ -886,7 +886,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <category>Creative Coding</category>
 		<category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Learn TypeScript Generics In 13 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/ts-generics/</link>
@@ -895,7 +895,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">TDiWticxpR</guid>
         <category>TypeScript</category>
     </item>
-    
+
 	<item>
         <title>Using Goth for OAuth Authentication in Golang</title>
         <link>https://frontendmasters.com/tutorials/melkey/golang-oauth/</link>
@@ -904,7 +904,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">BCIWCLGlpV</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>Golang Context Explained - How To Use With Timeout</title>
         <link>https://frontendmasters.com/tutorials/melkey/go-context-with-timeout/</link>
@@ -913,7 +913,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">mSgIRmaMbm</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>How to Deploy Go to Lambda</title>
         <link>https://frontendmasters.com/tutorials/melkey/deploy-go-lambdas/</link>
@@ -922,7 +922,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">vUYUlfhzIr</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>Go Concurrency Explained: Go Routines &amp; Channels</title>
         <link>https://frontendmasters.com/tutorials/melkey/go-routines-channels/</link>
@@ -931,7 +931,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">UjRkWUFYNf</guid>
         <category>Go</category>
     </item>
-    
+
 	<item>
         <title>How To Load Images Like A Pro</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/lazy-load-imgs/</link>
@@ -940,7 +940,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">mhfMEtFmqn</guid>
         <category>Performance</category>
     </item>
-    
+
 	<item>
         <title>How To Send Push Notifications With JavaScript</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/javascript-push-notifications/</link>
@@ -958,7 +958,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">wllcWQjDTH</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Stop Wasting Your Time - Use These 16 JS Utility Functions Instead</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/js-utils-functions/</link>
@@ -985,7 +985,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">zzeUIbJOeZ</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Mutation Observer Is Unbelievably Powerful</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/mutation-observer/</link>
@@ -994,7 +994,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">fkdVcPZzCp</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>Learn Intersection Observer In 15 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/intersection-observer/</link>
@@ -1003,7 +1003,7 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <guid isPermaLink="false">nKxxEKNBzz</guid>
         <category>JavaScript</category>
     </item>
-    
+
 	<item>
         <title>How To Create An Animated Image Carousel With CSS/JavaScript</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/js-css-carousel/</link>
@@ -1013,6 +1013,6 @@ But, w e can actually learn a lot about how CSS works by breaking down the optio
         <category>JavaScript</category>
 		<category>CSS</category>
     </item>
-    
+
 </channel>
 </rss>
