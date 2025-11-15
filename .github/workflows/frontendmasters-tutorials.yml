@@ -1,0 +1,43 @@
+name: Update Frontend Masters Tutorials RSS Feed
+run-name: Update Frontend Masters Tutorials RSS Feed - ${{ github.event_name }} - #${{ github.run_number }}
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    # Run every day at 07:00 UTC and 17:00 UTC
+    - cron: '0 7 * * *'
+    - cron: '0 17 * * *'
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytz
+
+      - name: Run RSS generator
+        run: python frontendmasters-tutorials-feed.py
+
+      - name: Commit and push RSS updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ $(git status --porcelain) ]]; then
+            git add feeds/frontendmasters-tutorials.xml
+            git commit -m "Action Update Frontend Masters Tutorials RSS feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+            git push
+          else
+            echo "No changes to commit"
