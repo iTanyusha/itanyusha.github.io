@@ -9,7 +9,7 @@ from email.utils import format_datetime
 import pytz
 
 API_URL = "https://search.api.frontendmasters.com/site?c=tutorials&so=date&s=2&f=10"
-OUTPUT_FILE = "feed.xml"
+OUTPUT_FILE = "feeds/frontendmasters-tutorials.xml"
 FEED_TITLE = "Frontend Masters Tutorials"
 FEED_LINK = "https://itanyusha.github.io/"
 FEED_DESCRIPTION = "Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&c=tutorials&so=date"
@@ -160,4 +160,4 @@ if __name__ == "__main__":
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(rss_xml)
 
-    print(f"Generated feed.xml with {len(all_items)} items (added {len(new_items)})")
+    print(f"Generated frontendmasters-tutorials.xml with {len(all_items)} items (added {len(new_items)})")
