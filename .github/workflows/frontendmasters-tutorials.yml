@@ -1,5 +1,5 @@
 name: Update Frontend Masters Tutorials RSS Feed
-run-name: Update Frontend Masters Tutorials RSS Feed - ${{ github.event_name }} - #${{ github.run_number }}
+run-name: Frontend Masters Tutorials RSS ${{ github.event_name }} #${{ github.run_number }}
 
 on:
   push:
