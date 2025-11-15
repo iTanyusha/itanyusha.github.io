@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/feeds/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Sun, 16 Nov 2025 00:20:21 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 00:24:33 +0200</lastBuildDate>
 
 	<item>
         <title>How to Use React Compiler for 100% Faster Apps</title>
@@ -28,6 +28,28 @@
     </item>
 
 	<item>
+        <title>Auth &amp; backend so simple even this CSS dev gets it</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/supabase-auth/</link>
+        <description><![CDATA[This tutorial demonstrates simplified authentication and backend setup using Supabase. A CSS developer builds a theme picker, integrating Supabase for user login and theme saving. The video covers setting up authentication with magic links and creating a database table with row-level security.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/supabase-auth/thumb-270.webp" /><br><br>Duration: 1h 20m<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Thu, 09 Oct 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">rUUwLRHNAC</guid>
+        <category>Supabase</category>
+		<category>PostgreSQL</category>
+		<category>Databases</category>
+		<category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>Directionally aware button effect without JavaScript</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/mouse-tracking-effect/</link>
+        <description><![CDATA[Learn to create a directionally aware button hover effect using only CSS. This tutorial refactors existing code for improved efficiency, utilizing a single pseudo-element. Modern CSS techniques, including anchor positioning, are demonstrated to achieve a smooth, responsive effect.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/mouse-tracking-effect/thumb-270.webp" /><br><br>Duration: 20 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">tGoNkcJmKM</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
         <title>I Will Never Use Prettier or ESLint Again</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/biome/</link>
         <description><![CDATA[Biome is a tool that aims to replace Prettier, ESLint, and any other formatting/linting tools. It is an all in one tool that does all the linting and formatting for your entire application and best of all it is incredibly easy to setup and use. In this video I will walk you through everything you need to know about Biome to get it set up and configured to your preferences.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/biome/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Web Dev Simplified]]></description>
@@ -44,6 +66,50 @@
         <guid isPermaLink="false">RPNByiNKlO</guid>
         <category>Creative Coding</category>
 		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>Remove box-sizing: border-box from your reset</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/rethink-box-sizing/</link>
+        <description><![CDATA[Setting the box-sizing model to border-box is one of the few remaining CSS resets used across most projects. But there are two common approaches, and the more popular choice will cause more problems than it solves.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/rethink-box-sizing/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">qlNBOfJuIm</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>Full-screen, Animated Navigation Menu</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/animated-navigation/</link>
+        <description><![CDATA[Learn how to create a full-page navigation menu with a snappy, staggered animation on the navigation links.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/animated-navigation/thumb-270.webp" /><br><br>Duration: 35 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">EjLSmvuDLM</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Most Developers Are Using AI Wrong</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/ai-tips/</link>
+        <description><![CDATA[AI has changed the way we create apps, but I find most developers aren’t using AI properly. In this video I will be going over 5 big tips that will make you significantly more productive with AI and help you avoid the biggest downsides of AI.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/ai-tips/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WmvTcTQdCu</guid>
+        <category>OpenAI</category>
+		<category>Claude</category>
+		<category>Cursor</category>
+		<category>Artificial Intelligence</category>
+    </item>
+
+	<item>
+        <title>Learn Advanced React Hooks In 35 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/advanced-react-hooks/</link>
+        <description><![CDATA[There are tons of hooks in React and many of them are quite complicated. In this video I will be showing you 4 advanced hooks (useReducer, useRef, useLayoutEffect, and useContext) as well as showing you how to create custom React hooks. I will also be talking about tons of best practices around when and why you would want to use each hook.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/advanced-react-hooks/thumb-270.webp" /><br><br>Duration: 35 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">IueXNlIpKN</guid>
+        <category>Next.js</category>
+		<category>React</category>
+		<category>Exclusive</category>
     </item>
 
 	<item>
@@ -68,5 +134,885 @@
 		<category>Exclusive</category>
     </item>
 
+	<item>
+        <title>Handle Next.js Data Access Like a Senior Dev</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/next-js-data-access-layer/</link>
+        <description><![CDATA[Most applications are just a thin wrapper over data management which means how you access and manage data is the most important part of your entire application. In this video I will talk about the data access layer and how you can implement a basic and much more advanced version.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/next-js-data-access-layer/thumb-270.webp" /><br><br>Duration: 20 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">NQTcAJCLSQ</guid>
+        <category>TypeScript</category>
+		<category>Next.js</category>
+		<category>React</category>
+    </item>
+
+	<item>
+        <title>Create a Complete Zod Clone In TypeScript</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/zod-clone/</link>
+        <description><![CDATA[Zod is a massively popular validation library that is so easy to use that it may seem like magic. In this video I will be breaking down how Zod works behind the scenes by showing you how to create a complete clone of Zod with all major features. We will cover everything about Zod, such as, basic type validation, object/array validation, transforms, custom validators, and much more.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/zod-clone/thumb-270.webp" /><br><br>Duration: 1h 41m<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Fri, 12 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">BvyDzEdQlX</guid>
+        <category>TypeScript</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Advanced CSS Dev Tools</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/advanced-css-debugging/</link>
+        <description><![CDATA[The dev tools built into the browser have tons of amazing features built in, but must developers never even use 10% of the available features. In this video I will be showing you every single useful CSS dev tool feature and talking about how they are useful in real world development and debugging.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/advanced-css-debugging/thumb-270.webp" /><br><br>Duration: 19 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">GbsxhEXWCu</guid>
+        <category>Dev Tools</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>How Senior Devs Optimize Images for 10x Faster Page Loads</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/optimizing-images/</link>
+        <description><![CDATA[Everyone wants their site to load as quickly as possible so they spend tons of time optimizing the size of their JS and CSS, but images are the real cause of most slowly loading pages. In this video I will be explaining everything you need to know to optimize images to speed up your page load speeds by anywhere from 2x-10x faster.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/optimizing-images/thumb-270.webp" /><br><br>Duration: 35 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">vXKccVMsEt</guid>
+        <category>Performance</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>NEW Next.js TypeScript Features</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/nextjs-typescript/</link>
+        <description><![CDATA[Next.js 15 added a ton of type safety improvements over previous versions, but the newest additions to Next.js really improve the TypeScript experience and bring it on par with many alternative frameworks, such as Tanstack Start. In this video I go over all the new TS features in Next.js as well as a few other features.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/nextjs-typescript/thumb-270.webp" /><br><br>Duration: 6 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">XIACSrwzkx</guid>
+        <category>Next.js</category>
+		<category>TypeScript</category>
+    </item>
+
+	<item>
+        <title>Introduction to gRPC</title>
+        <link>https://frontendmasters.com/tutorials/melkey/grpc-intro/</link>
+        <description><![CDATA[gRPC is a modern, high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. Create a basic gRPC server and protoc to generate the protobuf files.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/grpc-intro/thumb-270.webp" /><br><br>Duration: 24 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">YHwOqVfrBm</guid>
+        <category>APIs</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Create a navigation blob that tracks your mouse with CSS-only</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/track-mouse-css/</link>
+        <description><![CDATA[This tutorial covers creating animated "bubble" effects using pseudo-elements and anchor positioning, including how to animate anchor positions between elements while avoiding common pitfalls with relative positioning and utilizing calc() with anchor() functions.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/track-mouse-css/thumb-270.webp" /><br><br>Duration: 26 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ExUWTTtZFO</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>A CSS Trick to select a specific row with Grid auto-fit/fill</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/select-specific-grid-row/</link>
+        <description><![CDATA[As a responsive CSS Grid shifts from four columns, to three columns, to one column, it's difficult to select a specific row and continue to select the cells within that row and the grid changes layout. But thanks to modern CSS, this is now easy to do!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/select-specific-grid-row/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">XhOriZeAEr</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Shadcn Finally Has MultiSelect!</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/shadcn-mutliselect/</link>
+        <description><![CDATA[Shadcn has been missing a multiselect component and it doesn’t appear they will add one anytime soon so I decided to make my very own multiselect Shadcn component which you can install directly into your project. In this video I will show you how I made this component as well as how you can add it to your project.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/shadcn-mutliselect/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">qVJxVvUhmT</guid>
+        <category>TypeScript</category>
+		<category>React</category>
+    </item>
+
+	<item>
+        <title>Quick &amp; Easy Theme Transitions</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/easy-theme-transitions/</link>
+        <description><![CDATA[Learn to create dynamic theme transitions using sliding animations and bouncing effects that add personality to your interface with the View Transitions API. Try out circle effect technique and other eye-catching transitions that elevate the user experience.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/easy-theme-transitions/thumb-270.webp" /><br><br>Duration: 12 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">lDqZJWSPhU</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>CSS Style Queries Have So Much Potential</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/style-queries/</link>
+        <description><![CDATA[CSS style queries are a new additional to @container queries that make them even more powerful! In this video I deep dive into everything you need to know about style queries. I even cover many advanced use cases for style queries that really make them shine.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/style-queries/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">SyddeEYANj</guid>
+        <category>Responsive Design</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>How to Build Real-Time Applications in Golang with Goroutines</title>
+        <link>https://frontendmasters.com/tutorials/melkey/real-time-go-app/</link>
+        <description><![CDATA[A real-time chat application is built using the Go programming language. This video demonstrates the process of creating a functional chat app, highlighting the efficiency and scalability of Go for real-time applications using WebSockets, Concurrency and Goroutines<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/real-time-go-app/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">YIeGQxWLjP</guid>
+        <category>Go</category>
+    </item>
+
+	<item>
+        <title>How To Debug Like a Pro - From Beginner To Expert</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/debugging-crash-course/</link>
+        <description><![CDATA[Debugging code is one of the most important skills you can learn since it will make you a faster and more competent developer. In this video I go through the exact process of how to debug common errors, various console logging methods, how to use a debugger, and multiple tips and tricks that make debugging much easier.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/debugging-crash-course/thumb-270.webp" /><br><br>Duration: 32 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">VBIrExDyfK</guid>
+        <category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Your First Web Component</title>
+        <link>https://frontendmasters.com/tutorials/firt/your-first-web-component/</link>
+        <description><![CDATA[Learn the fundamentals of Web Components and how to create your own from scratch using JavaScript.
+Define custom elements using HTML elements, attach shadow DOM, and encapsulate styles and logic for reusable components.Build, register, and use your first Web Component without frameworks, and understand where they fit in modern web apps.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/firtman/your-first-web-component/thumb-270.webp" /><br><br>Duration: 27 min<br><br>Authors: Maximiliano Firtman]]></description>
+        <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">CRHiBsaIvy</guid>
+        <category>JavaScript</category>
+		<category>HTML</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Create a Modern &amp; Trendy navbar</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/trendy-navigation/</link>
+        <description><![CDATA[In this video I look at how we can create a modern and stylish navbar using modern CSS, starting with a well-supported approach that looks good, and then stepping it up with anchor positioning to make it a lot more fun.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/trendy-navigation/thumb-270.webp" /><br><br>Duration: 30 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">mvXDIJzltr</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>How to ignore an element&apos;s size (and why you&apos;d want to)</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/ignore-element-size/</link>
+        <description><![CDATA[When an image is wrapped in a figure element and the figure also contains a figcaption element, the width can be inconsistent. The figure will either use the width of the image, or if there a lot of text in the caption, the width will be based on the text. Let's explore some techniques to "ignore" an element's width to create more consistent layouts.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/ignore-element-size/thumb-270.webp" /><br><br>Duration: 9 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZwbtMnlFTQ</guid>
+        <category>Responsive Design</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>Everything You Need To Know About Accepting Payments with Stripe</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/stripe-basic-setup/</link>
+        <description><![CDATA[Setting up payments in an application is daunting, but it doesn't have to be. In this video I cover everything you need to know about setting up Stripe in your application. I explain all the important concepts and security concerns you need to be aware of when working with payment processing.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/stripe-basic-setup/thumb-270.webp" /><br><br>Duration: 45 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 15 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">SVOdEMbUwc</guid>
+        <category>APIs</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Everything I use to level-up my Go workflow</title>
+        <link>https://frontendmasters.com/tutorials/melkey/go-workflow-tools/</link>
+        <description><![CDATA[In this video i showcase six of my favorite Go developer tools that I think everyone should be using.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/go-workflow-tools/thumb-270.webp" /><br><br>Duration: 9 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">xFXjFiSZHd</guid>
+        <category>Go</category>
+    </item>
+
+	<item>
+        <title>:has() is more than a parent selector</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/has-pseudo-selector/</link>
+        <description><![CDATA[The :has() pseudo selector allows you to select the parent of a specific element very easily. But it can do so much more!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/has-pseudo-selector/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">fdPSQIeLzU</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>How I Built My Own Shadcn Library</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/custom-shadcn-library/</link>
+        <description><![CDATA[Shadcn is an awesome component library, but I often find myself creating my own custom components that I use in every project. Because of this, I created my own Shadcn registry that contains many components I use in every project. In this video I will show you how I created this registry, how you can create your own, and how you can contribute to this registry.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/custom-shadcn-library/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">lGSrZIpGSQ</guid>
+        <category>React</category>
+    </item>
+
+	<item>
+        <title>DOM Blasters (@scope in CSS)</title>
+        <link>https://frontendmasters.com/tutorials/chris-coyier/dom-blasters/</link>
+        <description><![CDATA[The term “DOM Blaster” is not official in any way, I just felt like naming it something silly. The idea is that when you use an `@scope {}` block inside a `<style>` block placed somewhere in the DOM the implied scope is the parent element. This means you can style an element (and it’s descendants) with regular CSS without having to name it or otherwise select it at all. This is immediately useful, but might have bigger implications on how we style sites going forward.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/coyier/dom-blasters/thumb-270.webp" /><br><br>Duration: 12 min<br><br>Authors: Chris Coyier]]></description>
+        <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">urcUHPDwwR</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>This CSS Update Revolutionizes CSS For Me - attr() Function Update</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/attr-function/</link>
+        <description><![CDATA[The attr() function has been around forever in CSS, but recently it has received a massive update that takes it from a niche function to one of my favorite CSS features. In this video I will talk about the new changes to the attr() function as well as explain why I think it is so useful.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/attr-function/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">vaabeSIwHV</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Proximity Scope (@scope in CSS)</title>
+        <link>https://frontendmasters.com/tutorials/chris-coyier/proximity-scope/</link>
+        <description><![CDATA[Proximity scope is a feature of `@scope` in CSS. While resolving a selector within an `@scope () {}` at-rule, selectors with the same specificity will rely on DOM proximity to decide a winner above what would have otherwise been source order. This is a whole new step in the cascade for CSS. It’s a bit niche of a concern, but it actually can make CSS work more intuitively, fixing an issue where an obviously closer class is losing to another class just because of the order they appear in the CSS.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/coyier/proximity-scope/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Chris Coyier]]></description>
+        <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WkFNKaoQtM</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Site-Wide Theming with Style Queries</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/theming-style-queries/</link>
+        <description><![CDATA[Theming with custom properties can involve duplicating your custom properties, which can be annoying. Style queries are one way we can get around that.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/theming-style-queries/thumb-270.webp" /><br><br>Duration: 5 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">AEpdchQgCg</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>CSS Finally Has if() Statements</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/css-if-statement/</link>
+        <description><![CDATA[Having the ability to do if statements in CSS would have been a dream of mine years ago, and it is finally a reality. Surprisingly, though, I don’t think I will end up using them much (if at all). In this video I will show you how these if statements work as well as talk about why I don’t see much use for them.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/css-if-statement/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">DScIRKxMXe</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Donut Scope (@scope in CSS)</title>
+        <link>https://frontendmasters.com/tutorials/chris-coyier/donut-scope/</link>
+        <description><![CDATA[Donut scoping, a term coined by Nicole Sullivan 15 years ago, is a feature of `@scope` in CSS where you can write a block of styles that apply to an element and it’s descendants *until* it finds another provided 2nd selector. It’s written like `@scope (article.card) to (.content) {}`. The effect is like you’re selecting an area with a hole in it, like a donut.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/coyier/donut-scope/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Chris Coyier]]></description>
+        <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">UJNFBiLbnX</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Vitest Crash Course</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/vitest-crash-course/</link>
+        <description><![CDATA[Testing your code is a critical step in writing good software, but it is often overlooked. One of the main reasons people overlook testing is they are unsure where to start. In this video I will not only show you how to get up and running with Vitest, but I will also show you all the important features of Vitest, how to use it with React, and even explore some powerful experimental testing features.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/vitest-crash-course/thumb-270.webp" /><br><br>Duration: 40 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">lWwVZVJXCP</guid>
+        <category>Testing</category>
+		<category>React</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Concurrency in a Go web application</title>
+        <link>https://frontendmasters.com/tutorials/melkey/concurrency/</link>
+        <description><![CDATA[Extend the workouts application built in Complete Go for Professional Developers course by adding concurrency. Learn all about Wait groups, channels and go routines.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/concurrency/thumb-270.webp" /><br><br>Duration: 8 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WLBonUFnQb</guid>
+        <category>Go</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Debounce vs Throttle</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-debounce-throttle/</link>
+        <description><![CDATA[Debounce and throttle are two easy techniques to implement that will drastically increase the performance of any site that has heavy API usage. In this video I show you how to implement both techniques, compare the pros/cons of each, and give real world examples of when to use each technique.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-debounce-throttle/thumb-270.webp" /><br><br>Duration: 23 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">FThAmaNxAk</guid>
+        <category>Performance</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Concurrency Locking &amp; SQL Query Timeouts in Golang</title>
+        <link>https://frontendmasters.com/tutorials/melkey/go-optimistic-locking/</link>
+        <description><![CDATA[Struggling with deadlocks, race conditions, or those pesky context deadline exceeded errors? In this quick walkthrough I demo real-world Go code that uses optimistic locking & context-aware queries. By the end, you'll know exactly when to lock, when to let conflicts resolve themselves, and how to tame query timeouts without hacks.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/go-optimistic-locking/thumb-270.webp" /><br><br>Duration: 13 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">BZrEjGSIMf</guid>
+        <category>Databases</category>
+		<category>Go</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Getting Started with CSS Style Queries</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/style-queries/</link>
+        <description><![CDATA[Style queries are going to change the way that we write CSS, and my front-end friend, and to celebrate how awesome they are, and to help raise awareness about them, this video is kicking off a mini-series here on this channel called Style Query Spotlight.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/style-queries/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ImPuggLtsO</guid>
+        <category>Responsive Design</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>CSS-only Form Validation Hints</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/styling-contextual-hints/</link>
+        <description><![CDATA[A look at how we can use CSS to add contextual hints to users as they fill out a form, including creating an SVG by hand and animating it based on whether a field is valid or invalid.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/styling-contextual-hints/thumb-270.webp" /><br><br>Duration: 38 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">VglWIePmBJ</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>JavaScript Promises from Scratch</title>
+        <link>https://frontendmasters.com/tutorials/firt/promises-from-scratch/</link>
+        <description><![CDATA[Learn everything about the Promises design pattern and how to use it in JavaScript.
+Create Promises with constructors and async functions, and consume them using callbacks or async/await along with proper error handling.
+Master sequential and parallel execution with the Promises API.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/firtman/promises-from-scratch/thumb-270.webp" /><br><br>Duration: 44 min<br><br>Authors: Maximiliano Firtman]]></description>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">VoZMlkRymX</guid>
+        <category>APIs</category>
+		<category>Asynchronous</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Not enough people know about these pseudo-elements</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/pseudo-elements-quiz/</link>
+        <description><![CDATA[On a recent quiz, only 34% of people correctly identified which choice wasn't a valid pseudo-element, which means not enough people know about ::marker and ::selection!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/pseudo-elements-quiz/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">nfwGrexFti</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Create this Trendy Blurry Glass Effect</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/blurry-glass-effect/</link>
+        <description><![CDATA[This blurred glass effect has become increasingly popular, so let’s look at how to do it!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/blurry-glass-effect/thumb-270.webp" /><br><br>Duration: 18 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">qQqaMyNSnw</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Stop Writing Bad Abstractions - Clean Code Tips That Work</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/bad-abstractions/</link>
+        <description><![CDATA[Writing clean code is something that everyone aspires to do, but is very difficult. In this video I will be covering some of the most important concepts about clean code, specifically around abstractions. I will teach you how to create proper abstractions, when to abstract your code, and what bad abstractions look like.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/bad-abstractions/thumb-270.webp" /><br><br>Duration: 19 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ygcUcTGkTt</guid>
+        <category>React</category>
+    </item>
+
+	<item>
+        <title>Create a Frosted Glass Effect with a Gradient Border</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/frosted-glass-effect/</link>
+        <description><![CDATA[Watch Kevin recreate a frosted glass effect using backdrop-filter and a linear-gradient border. <br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/frosted-glass-effect/thumb-270.webp" /><br><br>Duration: 36 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">fvbuNyvfzc</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Advanced TypeScript (infer, extends, ternaries, etc)</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/advanced-ts/</link>
+        <description><![CDATA[TypeScript is a daunting language to learn (especially when diving into the more complex features) which is why in this video I will be teaching you everything you need to know about advanced TypeScript features such as extends, infer, string template literals, ternaries, and more. This is the ultimate crash course in advanced TypeScript and will teach you everything you need to know to master complex TypeScript.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/advanced-ts/thumb-270.webp" /><br><br>Duration: 25 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">tTviRYonYN</guid>
+        <category>TypeScript</category>
+    </item>
+
+	<item>
+        <title>Make an animated glowing border effect with CSS</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/css-glowing-border/</link>
+        <description><![CDATA[I was recently asked about creating the glowing border effect from Google's AI Mode, and it sounded like a fun challenge, so here's how I did it!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/css-glowing-border/thumb-270.webp" /><br><br>Duration: 29 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ItAncUsATv</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>Form Styling Essentials | The basics to modern CSS tips &amp; tricks</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/form-styling/</link>
+        <description><![CDATA[In this tutorial, we'll explore using .form-groups for better organization, making sure our elements inherit font properties, when to use CSS Grid over Flexbox for form layouts (plus one key flexbox use case), advanced selectors for targeting specific form elements, practical layout tips and tricks, the new accent-color property for native styling, and more.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/form-styling/thumb-270.webp" /><br><br>Duration: 19 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 28 May 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aKUsNRzLFB</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>How To Handle Internationalization Like A Senior Dev</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/type-safe-i18n/</link>
+        <description><![CDATA[Internationalization (I18n) is a difficult task, especially if you don’t plan for it from the start. In this video I will not only be showing you how to handle internationalization, but also how to build your own internationalization system entirely from scratch with full type safety.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/type-safe-i18n/thumb-270.webp" /><br><br>Duration: 39 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">owfOOsuYof</guid>
+        <category>TypeScript</category>
+		<category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>63 VSCode Keyboard Shortcuts I Use Daily</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/vs-code-shortcuts/</link>
+        <description><![CDATA[Learning keyboard shortcuts is one of the most important things you can do to increase the speed at which you type and code. In this video I will be going over 63 different VSCode shortcuts that I love and use daily which single-handedly increase my coding productivity drastically.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/vs-code-shortcuts/thumb-270.webp" /><br><br>Duration: 24 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">tkFkGVdLIU</guid>
+        <category>Code Editors</category>
+    </item>
+
+	<item>
+        <title>5 CSS Secrets every developer should know</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/five-css-tips/</link>
+        <description><![CDATA[A look at 5 useful CSS tips and tricks, like single-color gradients, the user-select property, masks, escaping scroll containers, and more.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/five-css-tips/thumb-270.webp" /><br><br>Duration: 25 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 07 May 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">PmdFExFgzt</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>This custom property trick solves a common CSS problem</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/custom-property-tricks/</link>
+        <description><![CDATA[Having to worry about browser support stinks, but thanks to a simple custom property trick, there’s a really easy way to create fallbacks for older browsers.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/custom-property-tricks/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Mon, 28 Apr 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZBvUSsJtZW</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>Jobs Queue - Every Senior Dev Should Know This!</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/job-queue/</link>
+        <description><![CDATA[A job queue or scheduler is something almost no junior developers learn about, but it is something that is used at nearly every company. In this video I will explain what a job scheduler is, how they work, and show you how to build one from scratch.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/job-queue/thumb-270.webp" /><br><br>Duration: 32 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">CduEvjZdgr</guid>
+        <category>TypeScript</category>
+		<category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>Master CSS Custom Properties</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/master-css-custom-properties/</link>
+        <description><![CDATA[Custom properties have completely changed how we write CSS, but most people don't take full advantage of what we can do with them. In this video, we go beyond simply setting them up in the :root, exploring the benefits of locally scoped custom properties, as well as setting up undeclared custom properties using fallbacks, as well as some of the benefits of registering custom properties.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/master-css-custom-properties/thumb-270.webp" /><br><br>Duration: 25 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Thu, 10 Apr 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WOMCBXgmTO</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>5 Must Know Sorting Algorithms Explained and Visualized</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/sorting-algorithms-visualized/</link>
+        <description><![CDATA[Sorting algorithms are pretty complex to understand (especially when dealing with big O notation). In this video I will show you the 5 most common sorting algorithms, talk about big O notation for them, and visually show you how they work alongside fully working code examples.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/sorting-algorithms-visualized/thumb-270.webp" /><br><br>Duration: 33 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 25 Mar 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZusQvksoUc</guid>
+        <category>Algorithms</category>
+		<category>Computer Science</category>
+    </item>
+
+	<item>
+        <title>Wrapper Classes: A Layout Foundation</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/wrapper-classes/</link>
+        <description><![CDATA[Being able to keep content contained at a specific size, while allowing the background to go full-width with a container or wrapper classes is one of the most common things you'll have to do with CSS, and luckily, it's relatively easy!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/wrapper-classes/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WiwTganIYm</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Breakpoint-Free CSS Grid Layouts</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/breakpoint-free-grid-layouts/</link>
+        <description><![CDATA["Explore how the auto-fit and auto-fill keywords allow for responsive CSS Grid Layouts without the need for media queries. For a more advanced version of this layout, check out the Professional CSS: Build a Website from Scratch course."<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/breakpoint-free-grid-layouts/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">jsmRFijMDq</guid>
+        <category>Responsive Design</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>The New selectedcontent HTML Element Changes Selects Forever</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/custom-html-select/</link>
+        <description><![CDATA[Developers have been asking for the ability to customize the HTML select element for decades, and it is finally here. The new custom select feature in HTML/CSS is an absolute game changer since it gives you 100% flexibility to create your custom select element however you want. This new feature is way better than I ever thought custom selects could be.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/custom-html-select/thumb-270.webp" /><br><br>Duration: 5 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 18 Feb 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">FprNOaNDAP</guid>
+        <category>CSS</category>
+		<category>HTML</category>
+    </item>
+
+	<item>
+        <title>Strategies for margins, padding, gaps, and more</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/spacing-margin-padding/</link>
+        <description><![CDATA[Spacing on the web seems simple, but suddenly margins inexspicably collapse (or stop collapsing), padding is inconsistent in strange ways, and your layouts look off balance for reasons you don’t understand. 
+In this video, Kevin explores how to take control of spacing through margins, padding, and gaps, and also explores the new box-trim properties and values.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/spacing-margin-padding/thumb-270.webp" /><br><br>Duration: 29 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Mon, 03 Feb 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">uTtweAwoGB</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>There&apos;s a lot to learn by centering a div</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/centering-a-div/</link>
+        <description><![CDATA[While centering a div is often the focus of a lot of memes about how hard it can be, with modern CSS, we might have reached the point where we have too many ways to center a div.
+But, w e can actually learn a lot about how CSS works by breaking down the options that we do have, so today, we’ll see a lot of ways to do the exact same thing, but we’ll learn a ton of useful things along the way as well, and hopefully also help build up some critical thinking skills too, because centering divs isn’t the only thing in CSS where you can accomplish the same thing in different ways, but often the actual use case can dictate which is best, so we’ll talk about that as we go through it too.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/centering-a-div/thumb-270.webp" /><br><br>Duration: 18 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">bDBNosTqON</guid>
+        <category>CSS</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Image Gallery Web Component - Part 2</title>
+        <link>https://frontendmasters.com/tutorials/chris-coyier/web-components-part-2/</link>
+        <description><![CDATA[Build an image gallery showcasing activities with the power of Web Components. Part 2 focuses on the UI. Use modern CSS to create the layout. Add UI polish with animations JavaScript animation events.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/coyier/web-components-part-2/thumb-270.webp" /><br><br>Duration: 32 min<br><br>Authors: Chris Coyier]]></description>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">mIiDfLWipA</guid>
+        <category>HTML</category>
+		<category>CSS</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>Image Gallery Web Component - Part 1</title>
+        <link>https://frontendmasters.com/tutorials/chris-coyier/web-components-part-1/</link>
+        <description><![CDATA[Build an image gallery showcasing activities with the power of Web Components. Part 1 scaffolds the semantic HTML and core JavaScript functionally. Check out part 2 for the CSS styling, animation, and extra polish.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/coyier/web-components-part-1/thumb-270.webp" /><br><br>Duration: 23 min<br><br>Authors: Chris Coyier]]></description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">CqNUIfNytr</guid>
+        <category>HTML</category>
+		<category>CSS</category>
+		<category>JavaScript</category>
+		<category>Exclusive</category>
+    </item>
+
+	<item>
+        <title>How To Handle CSS Colors Like A Senior Dev</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/css-color-master-class/</link>
+        <description><![CDATA[Colors in CSS seem rather simple at first, but they are such an incredibly deep concept. Things like relative colors, color mixing, color spaces/gamuts, and so much more mean you can do so much with color in CSS. In this master class I cover everything you need to know about CSS colors to truly master them.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/css-color-master-class/thumb-270.webp" /><br><br>Duration: 21 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">SzmCilKqIj</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Animate height: auto with interpolate-size and calc-size()</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/calc-size-and-interpolate/</link>
+        <description><![CDATA[Animating to or from height: auto has been something front-end developers have had on their wishlist for a very long time, and now, not only can we do that very easily, but there are new possibilities that have opened up on top of that as well, all thanks to two new CSS features, interpolate-size and calc-size()<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/calc-size-and-interpolate/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Fri, 13 Dec 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">AmtMwSrYcx</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+
+	<item>
+        <title>CSS Grid Alignment &amp; Justification Without the Guesswork</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/grid-alignment-explained/</link>
+        <description><![CDATA[Figuring out alignment and justification with both flexbox and grid is kind of annoying, and often an exercise in trial and error! There is a decent mental model you can use to better know which one to use and when.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/grid-alignment-explained/thumb-270.webp" /><br><br>Duration: 12 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">SZZbOPFocZ</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>Can I clone this rotating, gradient, inner glow effect?</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/inner-glow/</link>
+        <description><![CDATA[I recently came across this cool blurred, rotating gradient border effect by Ana Tudor, and tried my best to recreate it!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/inner-glow/thumb-270.webp" /><br><br>Duration: 22 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WrPbyppBxd</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>CSS Popover + Anchor Positioning is Magical</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/anchor-popover/</link>
+        <description><![CDATA[If you’ve ever needed the positioning of an element to be connected (or anchored) to the position of another element, then you’ll be very excited about anchor positioning in CSS! It is new (as of the time of recording), but thankfully, we have a really good Polyfill, so we don’t have to worry about browser support!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/anchor-popover/thumb-270.webp" /><br><br>Duration: 20 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">oYhbsnPoBJ</guid>
+        <category>CSS</category>
+    </item>
+
+	<item>
+        <title>How To Handle Permissions Like A Senior Dev</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/permissions-master-class/</link>
+        <description><![CDATA[Permission systems are in every single app, but most developers don’t spend any time planning out their system which results in buggy, hard to maintain code. In this video I will cover how to create multiple levels of permission systems from very basic all the way up to advanced systems that many companies charge thousands of dollars for.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/permissions-master-class/thumb-270.webp" /><br><br>Duration: 35 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZshbDcGhLx</guid>
+        <category>Security</category>
+    </item>
+
+	<item>
+        <title>I&apos;m Ditching Try/Catch for Good!</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/ts-error-handling/</link>
+        <description><![CDATA[The try/catch block is a staple of JavaScript, but it leaves a lot to be desired (especially when working with TypeScript). None of the errors are typed, it adds an extra level of block scoping which can make certain code difficult to write, and it catches all errors (not just the ones you want). That is why in this video I will show you 3 alternatives to try/catch that I much prefer.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/ts-error-handling/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">KdiXtUSoxX</guid>
+        <category>TypeScript</category>
+    </item>
+    
+	<item>
+        <title>Dynamic numbering with CSS counters</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/css-counters/</link>
+        <description><![CDATA[CSS Counters are one of those things a lot of people aren't aware of, and most people who do know about them don't realize all the things you can do with them!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/css-counters/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 25 Sep 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZIcKclUENs</guid>
+        <category>CSS</category>
+    </item>
+    
+	<item>
+        <title>This is the BEST Golang Context Package Tutorial</title>
+        <link>https://frontendmasters.com/tutorials/melkey/best-context-package/</link>
+        <description><![CDATA[Learn how to use the Golang Context package to manage deadlines, cancellations, and request-scoped data in your Go applications. This tutorial covers the essentials with practical examples to help you write more efficient and robust code.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/best-context-package/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">eyLIpGVvZj</guid>
+        <category>Go</category>
+    </item>
+
+	<item>
+        <title>npm for Absolute Beginners</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/npm-beginners/</link>
+        <description><![CDATA[If you've ever seen an `npm install` or `npm create` as part of a tutorial and had no idea what it was talking about, then you're in the right place!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/npm-beginners/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Tue, 10 Sep 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">DiWyBOArph</guid>
+        <category>Build Tools</category>
+		<category>Node.js</category>
+    </item>
+    
+	<item>
+        <title>JavaScript Visualized - Closures</title>
+        <link>https://frontendmasters.com/tutorials/lydia-hallie/closure/</link>
+        <description><![CDATA[Learn what closures really are behind the scenes! Let’s break it down with visualized examples, a little quiz, and some use cases. If you're newer to JavaScript, I highly recommend you check out the closure lessons in [JavaScript: The Hard Parts course](https://frontendmasters.com/courses/javascript-hard-parts-v2/) first.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/hallie/closure/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Lydia Hallie]]></description>
+        <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">OJyABajdqd</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>How To Write Better Tests In 6 Easy Steps</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/write-better-tests/</link>
+        <description><![CDATA[Writing tests is difficult. It is an entirely separate skill set from programming which means you need to rewire your brain when writing tests to ensure you don’t try to write your tests as if they were normal code. In this video I will give you 6 tips to help you write better tests.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/write-better-tests/thumb-270.webp" /><br><br>Duration: 19 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 13 Aug 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">cjwkGoBJaB</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Stop the Flexbox for 1D, Grid for 2D layout nonsense</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/flex-grid-1d-2d/</link>
+        <description><![CDATA[Flexbox is great at some 2D layouts, and Grid can be a better choice for 1D layouts as well, so let's stop that being how we decide which one we're going to use, because often it leads us down the wrong path.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/flex-grid-1d-2d/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZeNTkZCRUJ</guid>
+        <category>CSS</category>
+    </item>
+    
+	<item>
+        <title>Learn Closures In 13 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-closures/</link>
+        <description><![CDATA[Closures are one of the core features of JavaScript that every developer needs to understand. You not only need to know what they are and how they work, but you also need to have a deep understanding of various niche behaviors of closures since many jobs will ask you complex interview questions on closures. In this video I will cover what closures are, how they work, and multiple example interview questions so you can be prepared for whatever gets thrown at you.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-closures/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ZhPZxyDanL</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>Only The Best Developers Understand How This Works</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/garbage-collection/</link>
+        <description><![CDATA[Managing memory in JavaScript is generally pretty easy because of garbage collection, but it isn’t always easy. In this video I will explain exactly what garbage collection is, how it works, and more importantly show you how you can debug and fix the most common memory related problems in your applications.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/garbage-collection/thumb-270.webp" /><br><br>Duration: 18 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">qDYARNpHqX</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>If You Cannot Name All 5 JS Scopes You Need To Watch This Video</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-scopes/</link>
+        <description><![CDATA[Scoping in JavaScript seems simple at first glance, but JavaScript actually has 5 different levels of scope that can be incredibly difficult to keep track of. In this video I explain everything you need to know about scoping across all 5 layers of scope so you can master scoping for your next project.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-scopes/thumb-270.webp" /><br><br>Duration: 15 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">WXYjUUkScw</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Structure Golang Projects with Go Blueprint</title>
+        <link>https://frontendmasters.com/tutorials/melkey/structuring-go-projects/</link>
+        <description><![CDATA[Go-blueprint is a powerful CLI tool that simplifies and structures your Go projects. Perfect for developers looking to streamline their workflow and enhance project organization. I felt something like this was missing in the Go community!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/structuring-go-projects/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">dixjJofvhX</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>gRPC in Golang with Twirp</title>
+        <link>https://frontendmasters.com/tutorials/melkey/grpc-with-twirp/</link>
+        <description><![CDATA[Twirp is my favorite Go gRPC framework. It was made by Twitch and is open source. Unlock the power of modern backend development with Go in this quick guide to Twirp and gRPC. Discover how these tools streamline creating efficient, scalable server applications. Perfect for developers looking to enhance their backend skills!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/grpc-with-twirp/thumb-270.webp" /><br><br>Duration: 13 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">FbtqmMCVgI</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>JavaScript Visualized - Execution Contexts</title>
+        <link>https://frontendmasters.com/tutorials/lydia-hallie/execution-context/</link>
+        <description><![CDATA[Learn how JavaScript handles code execution through execution contexts and environment records, including features like hoisting, the scope chain, and closures!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/hallie/execution-context/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Lydia Hallie]]></description>
+        <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">MNMNVteCci</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Pros vs Cons of Pointers in Golang</title>
+        <link>https://frontendmasters.com/tutorials/melkey/go-pointers/</link>
+        <description><![CDATA[Go is an incredibly good programming language. It is gaining in popularity and is increasingly being used in fields such as cloud computing, backend and infrastructure. In this video I go through a Reddit article that discusses how and when to user pointers in Go. This is a popular question so we go through it here!<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/go-pointers/thumb-270.webp" /><br><br>Duration: 6 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">jhMwtLamwz</guid>
+        <category>Go</category>
+    </item>
+
+	<item>
+        <title>JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue</title>
+        <link>https://frontendmasters.com/tutorials/lydia-hallie/event-loop/</link>
+        <description><![CDATA[Learn how the browser event loop, task queue, microtask queue, and Web APIs work together to enable non-blocking, asynchronous JavaScript. <br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/hallie/event-loop/thumb-270.webp" /><br><br>Duration: 12 min<br><br>Authors: Lydia Hallie]]></description>
+        <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">IAdLXznpXB</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>JavaScript Visualized - Promise Execution</title>
+        <link>https://frontendmasters.com/tutorials/lydia-hallie/promises/</link>
+        <description><![CDATA[Learn about the inner workings of Promises in JavaScript and see how they enable non-blocking asynchronous operations.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/hallie/promises/thumb-270.webp" /><br><br>Duration: 8 min<br><br>Authors: Lydia Hallie]]></description>
+        <pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">uOFWvgLJmT</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Create a clean, modern navigation with HTML &amp; CSS</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/vertical-nav/</link>
+        <description><![CDATA[Build a modern vertical navigation with a cool cutout look using some inverted rounded corners. As a bonus, animate the current page indicator between menu items for a more polished look.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/vertical-nav/thumb-270.webp" /><br><br>Duration: 24 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">zClEYlcILS</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+    
+	<item>
+        <title>Learn TypeScript Generics In 13 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/ts-generics/</link>
+        <description><![CDATA[By far one of the hardest TypeScript concepts to understand when first learning TypeScript is generics. They introduce new syntax, new logic, and a new way of thinking all at the same time which is tough to comprehend. In this video I will be breaking down everything you need to know about generics (including advanced generic features).<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/ts-generics/thumb-270.webp" /><br><br>Duration: 12 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">TDiWticxpR</guid>
+        <category>TypeScript</category>
+    </item>
+    
+	<item>
+        <title>Using Goth for OAuth Authentication in Golang</title>
+        <link>https://frontendmasters.com/tutorials/melkey/golang-oauth/</link>
+        <description><![CDATA[The ultimate Golang tutorial you will need on how to successfully set up any provider to your application for server side rendering.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/golang-oauth/thumb-270.webp" /><br><br>Duration: 13 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">BCIWCLGlpV</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>Golang Context Explained - How To Use With Timeout</title>
+        <link>https://frontendmasters.com/tutorials/melkey/go-context-with-timeout/</link>
+        <description><![CDATA[If you're a Go developer looking to improve your understanding of context management and concurrency control, you're in the right place. In this video, we break down the fundamentals of the Golang Context package, exploring its core concepts, practical applications, and best practices. Whether you're a beginner or an experienced Go developer, this tutorial has something valuable to offer.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/go-context-with-timeout/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">mSgIRmaMbm</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>How to Deploy Go to Lambda</title>
+        <link>https://frontendmasters.com/tutorials/melkey/deploy-go-lambdas/</link>
+        <description><![CDATA[Comprehensive tutorial on deploying Go code to a serverless AWS Lambda function! In this video, we'll walk you through the entire process, from setting up your AWS environment to writing and deploying your Go code. Whether you're a seasoned developer looking to dive into serverless computing or a Go enthusiast eager to explore AWS Lambda, this tutorial has got you covered. These step-by-step instructions and practical tips will ensure that you gain a deep understanding of the deployment process, enabling you to build and deploy serverless applications with confidence.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/deploy-go-lambdas/thumb-270.webp" /><br><br>Duration: 15 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">vUYUlfhzIr</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>Go Concurrency Explained: Go Routines &amp; Channels</title>
+        <link>https://frontendmasters.com/tutorials/melkey/go-routines-channels/</link>
+        <description><![CDATA[Explore the power of goroutines. Learn how to create lightweight concurrent threads of execution, allowing your programs to handle multiple tasks simultaneously. Channels are Go's built-in communication mechanism for safely passing data between goroutines. We'll explore both buffered and unbuffered channels and understand when to use each. Learn essential concurrency patterns, including fan-out/fan-in, worker pools, and more. These patterns will supercharge your code's efficiency while maintaining clarity and readability. Watch as we integrate real API calls using goroutines and channels, fetching data faster than ever before.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/go-routines-channels/thumb-270.webp" /><br><br>Duration: 7 min<br><br>Authors: Melkey]]></description>
+        <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">UjRkWUFYNf</guid>
+        <category>Go</category>
+    </item>
+    
+	<item>
+        <title>How To Load Images Like A Pro</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/lazy-load-imgs/</link>
+        <description><![CDATA[Images are the largest asset for most sites and the biggest cause for unresponsive, laggy sites. In this video I will show you how to use lazy loading to not only drastically speed up your applications, but to also increase the polish and quality of your site.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/lazy-load-imgs/thumb-270.webp" /><br><br>Duration: 15 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">mhfMEtFmqn</guid>
+        <category>Performance</category>
+    </item>
+    
+	<item>
+        <title>How To Send Push Notifications With JavaScript</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/javascript-push-notifications/</link>
+        <description><![CDATA[Sending push notifications in JavaScript seems like it would be difficult if not impossible, but it is actually built into the browser and quite easy. In this video I show you everything you need to know about sending push notifications with JavaScript and just how easy it is.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/javascript-push-notifications/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">BazTntzRuw</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>Learn Debounce And Throttle In 16 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/debounce-throttle/</link>
+        <description><![CDATA[Debounce and throttle are two easy techniques to implement that will drastically increase the performance of any site that has heavy API usage. In this video I show you how to implement both techniques, compare the pros/cons of each, and give real world examples of when to use each technique.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/debounce-throttle/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">wllcWQjDTH</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Stop Wasting Your Time - Use These 16 JS Utility Functions Instead</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-utils-functions/</link>
+        <description><![CDATA[I have made tons of videos on small, useful React custom hooks, but I have never covered any useful JavaScript utilities. That changes today. In this video I cover 16 amazing utility functions in JavaScript that span across 3 major categories. These functions will make working with the DOM, arrays, formatting, and more even easier.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-utils-functions/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 29 Mar 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">orpYowUuRT</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>How To Create A Search Bar In JavaScript</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-search-bar/</link>
+        <description><![CDATA[A search bar is something that nearly every application needs at some point, and luckily creating one is surprisingly easy. In this tutorial I will show you how to create a search bar and also how to avoid the common pitfalls of a search bar.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-search-bar/thumb-270.webp" /><br><br>Duration: 13 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sat, 29 Jan 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">jEZQrtUmjl</guid>
+        <category>JavaScript</category>
+    </item>
+
+	<item>
+        <title>This Simple Trick Makes Your Website Better Looking</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/css-parallax/</link>
+        <description><![CDATA[Parallax scrolling effects look awesome, but implementing them can be pretty tricky. In this video, I will show you how to implement a parallax scrolling effect, and most importantly, I will explain how and why the effect works so you can create your own parallax scrolling effects.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/css-parallax/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 25 Jan 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">zzeUIbJOeZ</guid>
+        <category>CSS</category>
+    </item>
+    
+	<item>
+        <title>Mutation Observer Is Unbelievably Powerful</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/mutation-observer/</link>
+        <description><![CDATA[Mutation Observer is an amazing tool in JavaScript that allows you to easily and efficiently observe any form of DOM changes. This can include anything from simply adding/removing nodes, all the way to more complex things like changing text/attributes.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/mutation-observer/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">fkdVcPZzCp</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>Learn Intersection Observer In 15 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/intersection-observer/</link>
+        <description><![CDATA[Intersection Observer is an amazing tool in JavaScript that allows you to easily and efficiently do pretty much anything based on the visibility of elements. This is perfect for scroll animations, lazy loading images, infinite scroll, and much more. Also, Intersection Observer is incredibly performant and flexible which makes it by far the best approach.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/intersection-observer/thumb-270.webp" /><br><br>Duration: 15 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 21 Dec 2021 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">nKxxEKNBzz</guid>
+        <category>JavaScript</category>
+    </item>
+    
+	<item>
+        <title>How To Create An Animated Image Carousel With CSS/JavaScript</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/js-css-carousel/</link>
+        <description><![CDATA[Image carousels are some of the oldest web design staples that continue to be incredibly popular to this day. In this video I will show you how to create your very own image carousel with animations in vanilla JS and CSS.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/js-css-carousel/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Sat, 27 Nov 2021 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">vSKiMtdFtx</guid>
+        <category>JavaScript</category>
+		<category>CSS</category>
+    </item>
+    
 </channel>
 </rss>

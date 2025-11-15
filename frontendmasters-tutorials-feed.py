@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 from email.utils import format_datetime
 import pytz
 
-API_URL = "https://search.api.frontendmasters.com/site?c=tutorials&so=date&s=2&f=10"
+API_URL = "https://search.api.frontendmasters.com/site?c=tutorials&so=date&s=20&f=0"
 OUTPUT_FILE = "feeds/frontendmasters-tutorials.xml"
 FEED_TITLE = "Frontend Masters Tutorials"
 FEED_LINK = f"https://itanyusha.github.io/{OUTPUT_FILE}"
