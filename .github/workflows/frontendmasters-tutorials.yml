@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ $(git status --porcelain) ]]; then
+          if [ -n "$(git status --porcelain)" ]; then
             git add feeds/frontendmasters-tutorials.xml
             git commit -m "Action Update Frontend Masters Tutorials RSS feed $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push
