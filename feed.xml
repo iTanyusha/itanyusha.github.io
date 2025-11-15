@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Frontend Masters Tutorials</title>
+    <link>https://itanyusha.github.io/</link>
+    <description>Daily updated top tutorials</description>
+    <lastBuildDate>Sat, 15 Nov 2025 19:23:47 GMT</lastBuildDate>
+    
+<item>
+    <title>How to Use React Compiler for 100% Faster Apps</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/react-compiler/</link>
+    <description><![CDATA[React 19.2 launched with the React compiler which can drastically increase the performance of your projects. In this video I will show you what the React compiler does, how you can configure it for your exact needs, and most importantly how to avoid potential bugs associated with enabling the compiler.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/react-compiler/thumb-270.webp" />]]></description>
+    <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">ymKYymYvRd</guid>
+</item>
+
+<item>
+    <title>Will I Survive These Advanced TypeScript Challenges?</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/typescript-challenges/</link>
+    <description><![CDATA[Using TypeScript is relatively easy, but writing complex TypeScript types is incredibly difficult. In this video I will be challenging myself with 3 different levels of TypeScript challenge (easy, medium, and hard) to see if I can conquer these ever increasingly difficult TypeScript problems.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/typescript-challenges/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">EUbvQlpbOC</guid>
+</item>
+
+<item>
+    <title>Auth &amp; backend so simple even this CSS dev gets it</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/supabase-auth/</link>
+    <description><![CDATA[This tutorial demonstrates simplified authentication and backend setup using Supabase. A CSS developer builds a theme picker, integrating Supabase for user login and theme saving. The video covers setting up authentication with magic links and creating a database table with row-level security.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/supabase-auth/thumb-270.webp" />]]></description>
+    <pubDate>Thu, 09 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">rUUwLRHNAC</guid>
+</item>
+
+<item>
+    <title>Directionally aware button effect without JavaScript</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/mouse-tracking-effect/</link>
+    <description><![CDATA[Learn to create a directionally aware button hover effect using only CSS. This tutorial refactors existing code for improved efficiency, utilizing a single pseudo-element. Modern CSS techniques, including anchor positioning, are demonstrated to achieve a smooth, responsive effect.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/mouse-tracking-effect/thumb-270.webp" />]]></description>
+    <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">tGoNkcJmKM</guid>
+</item>
+
+<item>
+    <title>I Will Never Use Prettier or ESLint Again</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/biome/</link>
+    <description><![CDATA[Biome is a tool that aims to replace Prettier, ESLint, and any other formatting/linting tools. It is an all in one tool that does all the linting and formatting for your entire application and best of all it is incredibly easy to setup and use. In this video I will walk you through everything you need to know about Biome to get it set up and configured to your preferences.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/biome/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">MVwMzWDJna</guid>
+</item>
+
+<item>
+    <title>2 reasons you should be using single color gradients in CSS</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/single-color-gradients/</link>
+    <description><![CDATA[Learn to create stunning CSS effects using single-color gradients. This tutorial demonstrates practical applications, from enhancing text readability on complex backgrounds to crafting eye-catching gradient borders. Explore techniques for animating gradients and optimizing browser compatibility.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/single-color-gradients/thumb-270.webp" />]]></description>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">RPNByiNKlO</guid>
+</item>
+
+<item>
+    <title>Remove box-sizing: border-box from your reset</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/rethink-box-sizing/</link>
+    <description><![CDATA[Setting the box-sizing model to border-box is one of the few remaining CSS resets used across most projects. But there are two common approaches, and the more popular choice will cause more problems than it solves.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/rethink-box-sizing/thumb-270.webp" />]]></description>
+    <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">qlNBOfJuIm</guid>
+</item>
+
+<item>
+    <title>Full-screen, Animated Navigation Menu</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/animated-navigation/</link>
+    <description><![CDATA[Learn how to create a full-page navigation menu with a snappy, staggered animation on the navigation links.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/animated-navigation/thumb-270.webp" />]]></description>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">EjLSmvuDLM</guid>
+</item>
+
+<item>
+    <title>Most Developers Are Using AI Wrong</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/ai-tips/</link>
+    <description><![CDATA[AI has changed the way we create apps, but I find most developers aren’t using AI properly. In this video I will be going over 5 big tips that will make you significantly more productive with AI and help you avoid the biggest downsides of AI.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/ai-tips/thumb-270.webp" />]]></description>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">WmvTcTQdCu</guid>
+</item>
+
+<item>
+    <title>Learn Advanced React Hooks In 35 Minutes</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/advanced-react-hooks/</link>
+    <description><![CDATA[There are tons of hooks in React and many of them are quite complicated. In this video I will be showing you 4 advanced hooks (useReducer, useRef, useLayoutEffect, and useContext) as well as showing you how to create custom React hooks. I will also be talking about tons of best practices around when and why you would want to use each hook.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/advanced-react-hooks/thumb-270.webp" />]]></description>
+    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">IueXNlIpKN</guid>
+</item>
+
+<item>
+    <title>Spice up user interactions with same-document view transitions</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/view-transitions-crash-course/</link>
+    <description><![CDATA[Dive into same-document view transitions, a great way to easily add some animations to user interactions. In this video, we're looking at the very basics of how they work, and slowly building up to create a few different animations. Along the way, we'll look at common issues that we can run into when using them and how to overcome those issues.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/view-transitions-crash-course/thumb-270.webp" />]]></description>
+    <pubDate>Fri, 26 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">GryRwEzTSH</guid>
+</item>
+
+<item>
+    <title>Basic React Hooks Crash Course (useState, useEffect, useMemo, useCallback)</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/react-hooks/</link>
+    <description><![CDATA[Hooks in React are one of the toughest concepts to learn. In this video I will be covering the most popular hooks in React. useState, useEffect, useMemo, useCallback. I will also be showing you all the rules you need to understand about hooks as well as how you can use ESlint to make learning hooks much easier.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/react-hooks/thumb-270.webp" />]]></description>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">CLkQEJOhyN</guid>
+</item>
+
+<item>
+    <title>Handle Next.js Data Access Like a Senior Dev</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/next-js-data-access-layer/</link>
+    <description><![CDATA[Most applications are just a thin wrapper over data management which means how you access and manage data is the most important part of your entire application. In this video I will talk about the data access layer and how you can implement a basic and much more advanced version.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/next-js-data-access-layer/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">NQTcAJCLSQ</guid>
+</item>
+
+<item>
+    <title>Create a Complete Zod Clone In TypeScript</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/zod-clone/</link>
+    <description><![CDATA[Zod is a massively popular validation library that is so easy to use that it may seem like magic. In this video I will be breaking down how Zod works behind the scenes by showing you how to create a complete clone of Zod with all major features. We will cover everything about Zod, such as, basic type validation, object/array validation, transforms, custom validators, and much more.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/zod-clone/thumb-270.webp" />]]></description>
+    <pubDate>Fri, 12 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">BvyDzEdQlX</guid>
+</item>
+
+<item>
+    <title>Advanced CSS Dev Tools</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/advanced-css-debugging/</link>
+    <description><![CDATA[The dev tools built into the browser have tons of amazing features built in, but must developers never even use 10% of the available features. In this video I will be showing you every single useful CSS dev tool feature and talking about how they are useful in real world development and debugging.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/advanced-css-debugging/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">GbsxhEXWCu</guid>
+</item>
+
+<item>
+    <title>How Senior Devs Optimize Images for 10x Faster Page Loads</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/optimizing-images/</link>
+    <description><![CDATA[Everyone wants their site to load as quickly as possible so they spend tons of time optimizing the size of their JS and CSS, but images are the real cause of most slowly loading pages. In this video I will be explaining everything you need to know to optimize images to speed up your page load speeds by anywhere from 2x-10x faster.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/optimizing-images/thumb-270.webp" />]]></description>
+    <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">vXKccVMsEt</guid>
+</item>
+
+<item>
+    <title>NEW Next.js TypeScript Features</title>
+    <link>https://frontendmasters.com/tutorials/webdevsimplified/nextjs-typescript/</link>
+    <description><![CDATA[Next.js 15 added a ton of type safety improvements over previous versions, but the newest additions to Next.js really improve the TypeScript experience and bring it on par with many alternative frameworks, such as Tanstack Start. In this video I go over all the new TS features in Next.js as well as a few other features.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/nextjs-typescript/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">XIACSrwzkx</guid>
+</item>
+
+<item>
+    <title>Introduction to gRPC</title>
+    <link>https://frontendmasters.com/tutorials/melkey/grpc-intro/</link>
+    <description><![CDATA[gRPC is a modern, high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. Create a basic gRPC server and protoc to generate the protobuf files.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/melkey/grpc-intro/thumb-270.webp" />]]></description>
+    <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">YHwOqVfrBm</guid>
+</item>
+
+<item>
+    <title>Create a navigation blob that tracks your mouse with CSS-only</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/track-mouse-css/</link>
+    <description><![CDATA[This tutorial covers creating animated "bubble" effects using pseudo-elements and anchor positioning, including how to animate anchor positions between elements while avoiding common pitfalls with relative positioning and utilizing calc() with anchor() functions.<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/track-mouse-css/thumb-270.webp" />]]></description>
+    <pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">ExUWTTtZFO</guid>
+</item>
+
+<item>
+    <title>A CSS Trick to select a specific row with Grid auto-fit/fill</title>
+    <link>https://frontendmasters.com/tutorials/kevin-powell/select-specific-grid-row/</link>
+    <description><![CDATA[As a responsive CSS Grid shifts from four columns, to three columns, to one column, it's difficult to select a specific row and continue to select the cells within that row and the grid changes layout. But thanks to modern CSS, this is now easy to do!<br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/select-specific-grid-row/thumb-270.webp" />]]></description>
+    <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">XhOriZeAEr</guid>
+</item>
+
+</channel>
+</rss>
