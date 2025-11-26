@@ -4,8 +4,18 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Tue, 25 Nov 2025 19:22:10 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 09:24:50 +0200</lastBuildDate>
 
+	<item>
+        <title>The magic of auto-fit and auto-fill</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/auto-fit-auto-fill/</link>
+        <description><![CDATA[Diving in to how auto-fit and auto-fill work, how to prevent overflow issues when using them, and how they compare to one another.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/auto-fit-auto-fill/thumb-270.webp" /><br><br>Duration: 14 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">vjgclgBPyN</guid>
+        <category>Responsive Design</category>
+		<category>CSS</category>
+    </item>
+    
 	<item>
         <title>How to Use React Compiler for 100% Faster Apps</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-compiler/</link>
@@ -18,6 +28,24 @@
 		<category>Exclusive</category>
     </item>
 
+	<item>
+        <title>CSS attribute selectors are more powerful than you think</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/attribute-selectors/</link>
+        <description><![CDATA[Following up from last week's video, I explore some advanced attribute selector techniques that let you target elements based on how their attributes start, end, or contain specific values. Near the end, I look at some use cases, like adding icons to external links and PDFs.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/attribute-selectors/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">QtkfnvXzMw</guid>
+        <category>CSS</category>
+    </item>
+    
+	<item>
+        <title>Advanced selections with CSS combinators</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/css-combinators/</link>
+        <description><![CDATA[A dive into CSS combinators and the basics of attribute selectors.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/css-combinators/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">sPAhbZsiFz</guid>
+        <category>CSS</category>
+    </item>
+    
 	<item>
         <title>Will I Survive These Advanced TypeScript Challenges?</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/typescript-challenges/</link>
