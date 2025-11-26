@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Wed, 26 Nov 2025 09:24:50 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 19:20:39 +0200</lastBuildDate>
 
 	<item>
         <title>The magic of auto-fit and auto-fill</title>
@@ -15,7 +15,7 @@
         <category>Responsive Design</category>
 		<category>CSS</category>
     </item>
-    
+
 	<item>
         <title>How to Use React Compiler for 100% Faster Apps</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-compiler/</link>
@@ -36,7 +36,7 @@
         <guid isPermaLink="false">QtkfnvXzMw</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Advanced selections with CSS combinators</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/css-combinators/</link>
@@ -45,7 +45,7 @@
         <guid isPermaLink="false">sPAhbZsiFz</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Will I Survive These Advanced TypeScript Challenges?</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/typescript-challenges/</link>
