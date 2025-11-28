@@ -38,7 +38,7 @@ jobs:
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
           if [ -n "$(git status --porcelain)" ]; then
             git add rss/frontendmasters-tutorials.xml
-            git commit -m "Action Update Frontend Masters Tutorials RSS feed $TIMESTAMP"
+            git commit -m "Update by action $TIMESTAMP"
             git push
           else
             echo "No changes to commit"
