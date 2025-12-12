@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Fri, 12 Dec 2025 09:28:33 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 19:21:58 +0200</lastBuildDate>
 
 	<item>
         <title>Conditional Rendering with React Activity</title>
@@ -16,7 +16,7 @@
 		<category>React</category>
 		<category>Next.js</category>
     </item>
-    
+
 	<item>
         <title>Learn Tanstack Start</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/tanstack-start/</link>
@@ -27,7 +27,7 @@
 		<category>React</category>
 		<category>Next.js</category>
     </item>
-    
+
 	<item>
         <title>The magic of auto-fit and auto-fill</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/auto-fit-auto-fill/</link>
@@ -68,7 +68,7 @@
         <category>Performance</category>
 		<category>React</category>
     </item>
-    
+
 	<item>
         <title>Advanced selections with CSS combinators</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/css-combinators/</link>
