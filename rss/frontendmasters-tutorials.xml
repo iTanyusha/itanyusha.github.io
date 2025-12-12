@@ -4,8 +4,30 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Thu, 11 Dec 2025 19:28:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 09:28:33 +0200</lastBuildDate>
 
+	<item>
+        <title>Conditional Rendering with React Activity</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/react-activity/</link>
+        <description><![CDATA[The brand new React Activity component is not only an easy way to conditionally render elements, but it can also be used as a powerful performance tool in the right situations.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/react-activity/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">kiCJoBcZCi</guid>
+        <category>TanStack</category>
+		<category>React</category>
+		<category>Next.js</category>
+    </item>
+    
+	<item>
+        <title>Learn Tanstack Start</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/tanstack-start/</link>
+        <description><![CDATA[Tanstack Start is a new meta framework that aims to solve many of the annoying problems with Next.js. In this video I will be showing you how to create a complete fullstack project using Tanstack Start and explaining how it compares to Next.js. By the end of this video you will know everything you need to know about Tanstack Start to build your own fullstack projects.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/tanstack-start/thumb-270.webp" /><br><br>Duration: 1h 3m<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">bMKXIhNgjX</guid>
+        <category>TanStack</category>
+		<category>React</category>
+		<category>Next.js</category>
+    </item>
+    
 	<item>
         <title>The magic of auto-fit and auto-fill</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/auto-fit-auto-fill/</link>
@@ -37,6 +59,16 @@
         <category>CSS</category>
     </item>
 
+	<item>
+        <title>Stop Making this Massive Authorization Mistake</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/authorization-mistakes/</link>
+        <description><![CDATA[Every app needs to handle authorization (aka permission), but doing so in an easy to extend and clean way is very hard. In this video I will show you how to build an incredibly robust permission system that hooks into your data access layer and UI by using CASL as the backbone of our permission system.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/authorization-mistakes/thumb-270.webp" /><br><br>Duration: 55 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">OOnqpgZyUz</guid>
+        <category>Performance</category>
+		<category>React</category>
+    </item>
+    
 	<item>
         <title>Advanced selections with CSS combinators</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/css-combinators/</link>
