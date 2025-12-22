@@ -4,8 +4,39 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Mon, 22 Dec 2025 09:29:26 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 19:21:12 +0200</lastBuildDate>
 
+	<item>
+        <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/react-form-async-hooks/</link>
+        <description><![CDATA[Most developers stop learning React hooks after the basics of useState, useEffect, useContext, etc, which means they never learn some of the most powerful React hooks. In this video I will be covering the 5 must know React hooks that deal with form management and asynchronous React. I will also be diving deep into how transitions work in React which is a crucial topic that most developers never bother learning.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/react-form-async-hooks/thumb-270.webp" /><br><br>Duration: 31 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">KNkwGDUfoM</guid>
+        <category>Next.js</category>
+		<category>React</category>
+		<category>Exclusive</category>
+    </item>
+    
+	<item>
+        <title>NEW Tanstack AI Library is Amazing!</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/tanstack-ai/</link>
+        <description><![CDATA[Creating apps that utilize AI is almost a necessity at this point and the brand new Tanstack AI library makes this process so much smoother. This library takes all the best parts of the Vercel AI SDK and creates its own typesafe spin on it that is a joy to work with. In this video I cover what Tanstack AI is and also how you can start using it in your projects.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/tanstack-ai/thumb-270.webp" /><br><br>Duration: 11 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 16 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">JHeVlYgjNH</guid>
+        <category>Artificial Intelligence</category>
+		<category>React</category>
+		<category>TanStack</category>
+    </item>
+    
+	<item>
+        <title>TypeScript Branded Types</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/branded-types/</link>
+        <description><![CDATA[Branded types are a niche TypeScript feature that don’t make much sense in small projects, but as soon as your project grows in size or complexity they are a must have. In this video I explain everything you need to know about branded types as well as how to integrate them with Drizzle and Zod.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/branded-types/thumb-270.webp" /><br><br>Duration: 15 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 09 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">hWwsvkmiAH</guid>
+        <category>TypeScript</category>
+    </item>
+    
 	<item>
         <title>Conditional Rendering with React Activity</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-activity/</link>
