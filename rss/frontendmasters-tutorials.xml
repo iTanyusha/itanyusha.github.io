@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Mon, 22 Dec 2025 19:21:12 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 09:29:13 +0200</lastBuildDate>
 
 	<item>
         <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
@@ -16,7 +16,7 @@
 		<category>React</category>
 		<category>Exclusive</category>
     </item>
-    
+
 	<item>
         <title>NEW Tanstack AI Library is Amazing!</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/tanstack-ai/</link>
@@ -27,7 +27,7 @@
 		<category>React</category>
 		<category>TanStack</category>
     </item>
-    
+
 	<item>
         <title>TypeScript Branded Types</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/branded-types/</link>
@@ -36,7 +36,7 @@
         <guid isPermaLink="false">hWwsvkmiAH</guid>
         <category>TypeScript</category>
     </item>
-    
+
 	<item>
         <title>Conditional Rendering with React Activity</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-activity/</link>
