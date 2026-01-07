@@ -4,8 +4,27 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Tue, 06 Jan 2026 19:26:01 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 09:31:08 +0200</lastBuildDate>
 
+	<item>
+        <title>7 Niche React Hooks You Probably Don&apos;t Know, But Should</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/niche-react-hooks/</link>
+        <description><![CDATA[There are so many React hooks and most developers only use a handful of them. In this video I will be covering 7 niche React hooks that you have probably never heard of, but should definitely be using in your projects. These hooks can do everything from helping connect server and client components, to managing complex external state.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/niche-react-hooks/thumb-270.webp" /><br><br>Duration: 33 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">wnZkBnqnwP</guid>
+        <category>React</category>
+		<category>Exclusive</category>
+    </item>
+    
+	<item>
+        <title>I Love the NEW CSS Functions</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/css-custom-functions/</link>
+        <description><![CDATA[CSS has received dozens of monumental updates in the last few years, and this new CSS functions update might be one of the most impactful updates of all. In this video I will show you how to use this new function syntax from the basics all the way to advanced features while also showing you how this can be used for real world code.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/css-custom-functions/thumb-270.webp" /><br><br>Duration: 10 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">LgjyYvOssV</guid>
+        <category>CSS</category>
+    </item>
+    
 	<item>
         <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-form-async-hooks/</link>
