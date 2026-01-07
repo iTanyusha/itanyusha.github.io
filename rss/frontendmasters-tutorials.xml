@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Wed, 07 Jan 2026 09:31:08 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 19:28:27 +0200</lastBuildDate>
 
 	<item>
         <title>7 Niche React Hooks You Probably Don&apos;t Know, But Should</title>
@@ -15,7 +15,7 @@
         <category>React</category>
 		<category>Exclusive</category>
     </item>
-    
+
 	<item>
         <title>I Love the NEW CSS Functions</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/css-custom-functions/</link>
@@ -24,7 +24,7 @@
         <guid isPermaLink="false">LgjyYvOssV</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-form-async-hooks/</link>
