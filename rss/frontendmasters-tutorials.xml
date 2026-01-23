@@ -4,8 +4,27 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Thu, 22 Jan 2026 19:31:26 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 09:31:37 +0200</lastBuildDate>
 
+	<item>
+        <title>NEW CSS Scroll Features are Game Changers</title>
+        <link>https://frontendmasters.com/tutorials/webdevsimplified/css-scroll-features/</link>
+        <description><![CDATA[These new CSS scroll features are amazing. They completely replace the need for JavaScript in many animations and in this video I will show you everything you need to know in order to create beautiful advanced CSS scroll animations.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/webdevsimplified/css-scroll-features/thumb-270.webp" /><br><br>Duration: 16 min<br><br>Authors: Web Dev Simplified]]></description>
+        <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">eYxogUefMB</guid>
+        <category>CSS</category>
+    </item>
+    
+	<item>
+        <title>Can I recreate this animated gradient button?</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/fun-button-effect/</link>
+        <description><![CDATA[Watch me try to recreate a fun gradient button effect.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/fun-button-effect/thumb-270.webp" /><br><br>Duration: 56 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">GFJgdSOhfX</guid>
+        <category>Creative Coding</category>
+		<category>CSS</category>
+    </item>
+    
 	<item>
         <title>7 Niche React Hooks You Probably Don&apos;t Know, But Should</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/niche-react-hooks/</link>
@@ -25,6 +44,15 @@
         <category>CSS</category>
     </item>
 
+	<item>
+        <title>Build smarter color systems with CSS relative colors</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/color-variations/</link>
+        <description><![CDATA[Relative colors are one of my favorite new features in CSS, and in this video I take a bit of time exploring why.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/color-variations/thumb-270.webp" /><br><br>Duration: 9 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">cMImCNNCtB</guid>
+        <category>CSS</category>
+    </item>
+    
 	<item>
         <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-form-async-hooks/</link>
@@ -56,6 +84,15 @@
         <category>TypeScript</category>
     </item>
 
+	<item>
+        <title>CSS Nesting in 20 minutes</title>
+        <link>https://frontendmasters.com/tutorials/kevin-powell/css-nesting/</link>
+        <description><![CDATA[CSS Nesting is awesome, though there are a few important things to know about it, which I break down in this video.<br><br><img src="https://cdn.frontendmasters.com/assets/tutorials/powell/css-nesting/thumb-270.webp" /><br><br>Duration: 19 min<br><br>Authors: Kevin Powell]]></description>
+        <pubDate>Wed, 03 Dec 2025 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">ScIgmrATPs</guid>
+        <category>CSS</category>
+    </item>
+    
 	<item>
         <title>Conditional Rendering with React Activity</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-activity/</link>
