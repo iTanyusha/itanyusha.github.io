@@ -4,7 +4,7 @@
     <title>Frontend Masters Tutorials</title>
     <link>https://itanyusha.github.io/rss/frontendmasters-tutorials.xml</link>
     <description>Daily updated feed from https://frontendmasters.com/tutorials/?dg=1&amp;c=tutorials&amp;so=date</description>
-    <lastBuildDate>Fri, 23 Jan 2026 09:31:37 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 19:27:23 +0200</lastBuildDate>
 
 	<item>
         <title>NEW CSS Scroll Features are Game Changers</title>
@@ -14,7 +14,7 @@
         <guid isPermaLink="false">eYxogUefMB</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Can I recreate this animated gradient button?</title>
         <link>https://frontendmasters.com/tutorials/kevin-powell/fun-button-effect/</link>
@@ -24,7 +24,7 @@
         <category>Creative Coding</category>
 		<category>CSS</category>
     </item>
-    
+
 	<item>
         <title>7 Niche React Hooks You Probably Don&apos;t Know, But Should</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/niche-react-hooks/</link>
@@ -52,7 +52,7 @@
         <guid isPermaLink="false">cMImCNNCtB</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Master Must Know Form and Async React Hooks in 30 Minutes</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-form-async-hooks/</link>
@@ -92,7 +92,7 @@
         <guid isPermaLink="false">ScIgmrATPs</guid>
         <category>CSS</category>
     </item>
-    
+
 	<item>
         <title>Conditional Rendering with React Activity</title>
         <link>https://frontendmasters.com/tutorials/webdevsimplified/react-activity/</link>
